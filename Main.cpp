@@ -82,7 +82,7 @@ ID3D11DeviceContext* p_context = NULL;
 ID3D11RenderTargetView* mainRenderTargetView = NULL;
 
 void ToggleMenuVisibility() {
-    if (GetAsyncKeyState(VK_INSERT) & 0x1) {
+    if (GetAsyncKeyState(VK_HOME) & 0x1) {
         if (!insert_key_pressed) {
             show_menu = !show_menu;
             insert_key_pressed = true;
